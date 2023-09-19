@@ -1,0 +1,1 @@
+SELECT avg(shipping_fee) AS promedio, MIN(shipping_fee), MAX(shipping_fee), SUM(shipping_fee), COUNT(*) FROM orders WHERE payment_type IS NOT NULL

@@ -1,0 +1,1 @@
+SELECT payment_type, AVG(shipping_fee), COUNT(payment_type) FROM orders GROUP BY payment_type

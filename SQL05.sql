@@ -1,0 +1,1 @@
+UPDATE alumnos SET idCarrera=20 WHERE idAlumno=8
